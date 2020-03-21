@@ -1,7 +1,7 @@
 // Primitive str = Immutable fixed-length string somewhere in memory
 // String = Growable, heap-allocated data structure - Use when you need to modify or own string data
 
-pub fn run() {
+pub fn run(){
   let hellotstr = "hello"; //cannot add any more values to this string
   let mut hello = String::from("Hello "); //mut is used to append more word to the string
 

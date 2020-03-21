@@ -24,7 +24,7 @@ pub fn main() {
     //":b" used to print as binary ":x" for hex ":o" for octal
 
     // Placeholder for debug trait
-    println!("{:?}", (12, true, "hello")); (12, true, "hello")
+    println!("{:?}", (12, true, "hello")); //(12, true, "hello")
     //":?"to print any type of value
     // Basic math
     println!("10 + 10 = {}", 10 + 10); //10 + 10 = 20

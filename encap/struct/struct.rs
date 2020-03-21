@@ -29,25 +29,11 @@ impl Person {
 }
 
 pub fn run() {
-  // let mut c = Color {
-  //   red: 255,
-  //   green: 0,
-  //   blue: 0,
-  // };
-
-  // c.red = 200;
-
-  // println!("Color: {} {} {}", c.red, c.green, c.blue);
-
-  // let mut c = Color(255, 0, 0);
-
-  // c.0 = 200;
-
-  // println!("Color: {} {} {}", c.0, c.1, c.2);
 
   let mut p = Person::new("Mary", "Doe");
   println!("Person {}", p.full_name());
   p.set_last_name("Williams");
   println!("Person {}", p.full_name());
   println!("Person Tuple {:?}", p.to_tuple());
+  
 }

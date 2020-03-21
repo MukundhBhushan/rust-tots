@@ -3,7 +3,8 @@
 use std::mem; //memory libraries
 
 pub fn run() {
-    let mut numbersFix: [i32; 4] = [1, 2, 3, 4]; //values cannot change
+    let number = [1,2,3,4,5];
+    let numbersFix: [i32; 4] = [1, 2, 3, 4]; //values cannot change
     let mut numbers: [i32; 4] = [1, 2, 3, 4]; //values can change but not added
 
     // Re-assign value
