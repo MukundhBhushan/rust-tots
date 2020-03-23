@@ -13,7 +13,7 @@ fn main(){
     let markslen = marks.len();
 
     //get values with keys
-    match.get("JS"){
+    match marks.get("JS"){
         Some(mark) => println!("you got {}", mark),
         None => println!("you did not read")
     }
